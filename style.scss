@@ -1,0 +1,35 @@
+$primary: #ce3c83;
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li,
+ul{
+    list-style: none;
+}
+.capital{
+    text-transform: uppercase;
+}
+h2{
+    color: $primary;
+}
+button{
+    background-color:$primary;
+    color: white;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: xx-large;
+    background-color: grey;
+    padding: 1rem;
+
+
+}
+.imgbkg{
+    background-image: url(/images/flower-bg.jpg);
+    background-position: center;
+    background-size:cover;
+    // background-size: cover;
+}
